@@ -2,7 +2,8 @@
 import './App.css';
 //components
 // import Test1 from './components/Test1';
-import Test2 from './components/Test2';
+// import Test2 from './components/Test2';
+import ApexCharts from './components/ApexCharts.js'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       </header>
       <div>
         {/* <Test1 /> */}
-        <Test2 />
+        {/* <Test2 /> */}
+        <ApexCharts />
       </div>
     </div>
   );
