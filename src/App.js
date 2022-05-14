@@ -4,9 +4,11 @@ import './App.css';
 // import Test1 from './components/Test1';
 // import Test2 from './components/Test2';
 // import ApexCharts from './components/apexChart/ApexCharts.js'
-// import ApexCharts2 from './components/apexChart/ApexCharts2.js'
+import ApexCharts2 from './components/apexChart/ApexCharts2.js'
 
-import Table1 from './components/antd/Table1';
+// import Table1 from './components/antd/Table1';
+// import Table2 from './components/antd/Table2';
+
 function App() {
   return (
     <div className="App">
@@ -17,8 +19,9 @@ function App() {
         {/* <Test1 /> */}
         {/* <Test2 /> */}
         {/* <ApexCharts /> */}
-         {/* <ApexCharts2 /> */}
-         <Table1 />
+         <ApexCharts2 />
+         {/* <Table1 /> */}
+         {/* <Table2 /> */}
       </div>
     </div>
   );
