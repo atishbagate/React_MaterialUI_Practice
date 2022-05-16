@@ -13,7 +13,7 @@ import {
   Button,
 } from "@material-ui/core";
 import { PhotoCamera } from "@material-ui/icons";
-import useStyles from "../styles/styles";
+import useStyles from "../../styles/styles";
 
 const cards = [1,2,3,4,5,6,7,8,9];
 const Test2 = () => {
