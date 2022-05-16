@@ -1,27 +1,17 @@
 
 import './App.css';
 //components
-// import Test1 from './components/materialUI/Test1';
-// import Test2 from './components/materialUI/Test2';
-// import ApexCharts from './components/apexChart/ApexCharts.js'
-// import ApexCharts2 from './components/apexChart/ApexCharts2.js'
-
-// import Table1 from './components/antd/Table1';
-// import Table2 from './components/antd/Table2';
+ import UseRefsHook from './components/useRefsHook';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
          <p> Learn React Material UI</p>
+         <UseRefsHook />
       </header>
       <div>
-        {/* <Test1 /> */}
-        {/* <Test2 /> */}
-        {/* <ApexCharts /> */}
-         {/* <ApexCharts2 /> */}
-         {/* <Table1 /> */}
-         {/* <Table2 /> */}
+ 
       </div>
     </div>
   );
