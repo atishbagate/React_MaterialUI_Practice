@@ -5,6 +5,8 @@ import './App.css';
 //components
 //  import UseRefsHook from './components/useRef/useRefsHook';
 // import UseRefsHook2 from './components/useRef/useRefsHook2';
+//components 
+import UseCallback from './components/useCallback/useCallback'
  
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
          {/* <UseRefsHook2 />  */}
          {/* <UseMemos /> */}
          {/* <UseMemo2 /> */}
+         <UseCallback />
       </header>
       <div>
  
