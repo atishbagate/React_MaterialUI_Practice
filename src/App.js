@@ -1,13 +1,13 @@
 
 import './App.css';
-// import UseMemos from './components/useMemo/useMemo';
+//  import UseMemos from './components/useMemo/useMemo';
 // import UseMemo2 from './components/useMemo/useMemo2';
 //components
 //  import UseRefsHook from './components/useRef/useRefsHook';
-// import UseRefsHook2 from './components/useRef/useRefsHook2';
+//import UseRefsHook2 from './components/useRef/useRefsHook2';
 //components 
-import UseCallback from './components/useCallback/useCallback'
- 
+//import UseCallback from './components/useCallback/useCallback'
+ import UseEffect from './components/useEffect/useEffect';
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
          {/* <UseRefsHook2 />  */}
          {/* <UseMemos /> */}
          {/* <UseMemo2 /> */}
-         <UseCallback />
+         {/* <UseCallback /> */}
+         <UseEffect />
       </header>
       <div>
  
